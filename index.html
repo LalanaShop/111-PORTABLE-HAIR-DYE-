@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portable Hair Dye</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf2;
+      color: #3a2f1f;
+    }
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .hero-img img,
+    .feature-img img,
+    .variant-img img,
+    .price-img img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    h1, h2, h3 {
+      color: #a67c00;
+    }
+    .highlight {
+      background: #fff3c1;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .timer {
+      background: #ffe28a;
+      padding: 1em;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    .note {
+      background: #fff6e0;
+      padding: 1em;
+      border-left: 5px solid #a67c00;
+      margin: 20px 0;
+    }
+    .price-box {
+      background: #fff0c2;
+      padding: 1em;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .price-box p {
+      margin: 0.3em 0;
+      font-size: 1.2em;
+    }
+    .promo {
+      background: #ffcc00;
+      color: white;
+      padding: 0.5em;
+      font-weight: bold;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 1. Gambar Utama -->
+    <div class="hero-img">
+      <img src="https://cdn.hotishop.com/image/574bd2a576123c7c77b8ff310df92615d08bb683-600.jpeg" alt="Portable Hair Dye">
+    </div>
+
+    <!-- 2. Judul & Deskripsi -->
+    <h1>PORTABLE HAIR DYE</h1>
+    <p><strong>PORTABLE HAIR DYE – Pewarna Rambut Instan & Praktis!</strong><br>
+      Gaya Rambut Berubah Seketika, Kapan Saja & Di Mana Saja!</p>
+    <p>💄 Solusi Cepat Ganti Warna Rambut Tanpa Ribet!</p>
+    <p>Portable Hair Dye adalah inovasi pewarna rambut instan yang praktis dan mudah dibawa ke mana pun. Cocok untuk kamu yang suka gonta-ganti warna rambut tanpa perlu pergi ke salon. Tinggal oles, ratakan, dan kamu sudah tampil beda dalam hitungan detik!</p>
+
+    <!-- 3. Keunggulan Produk -->
+    <div class="highlight">
+      <h2>✨ Fitur Unggulan:</h2>
+      <ul>
+        <li>✔️ Praktis & Mudah Digunakan</li>
+        <li>✔️ Hasil Warna Instan & Tahan Lama</li>
+        <li>✔️ Aman untuk Rambut & Kulit Kepala</li>
+        <li>✔️ Portable & Travel Friendly</li>
+        <li>✔️ Bisa Dicuci Kapan Saja</li>
+      </ul>
+    </div>
+
+    <!-- 4. Detail Produk Bergambar -->
+    <div class="feature-img">
+      <img src="https://cdn.hotishop.com/image/c2a6f27577d239c866c391730983cbd8b6a838d5-600.jpeg" alt="Fitur 1">
+      <p>Tampilan desain tube yang ringkas dan mudah digunakan.</p>
+      <img src="https://cdn.hotishop.com/image/cfdec7a34186fd7fc2816b4e9a556c1be57db913.gif" alt="Fitur 2">
+      <p>Hasil instan dan nyata hanya dalam sekali sapuan!</p>
+      <img src="https://cdn.hotishop.com/image/bf0f580e913564eab0783fa20f37f8031ca409a8-600.jpeg" alt="Fitur 3">
+      <p>Bisa dibawa ke mana saja — pas banget untuk gaya on-the-go!</p>
+    </div>
+
+    <!-- 5. Varian Warna -->
+    <h2>Varian Warna</h2>
+    <div class="variant-img">
+      <img src="https://cdn.hotishop.com/image/7d8d14fbb02419b082cc13896a46bafed23507bc-600.png">
+      <img src="https://cdn.hotishop.com/image/17438d554aa983756c77dbc12c358e31f17545cf-600.jpeg">
+      <img src="https://cdn.hotishop.com/image/ac861e4223c68ed3f8f9afb5bd8cbd610bb7c1fb-600.jpeg">
+    </div>
+
+    <!-- 6. Testimoni -->
+    <h2>Testimoni Pelanggan</h2>
+    <div class="highlight">
+      <p><strong>⭐ Ayu, Surabaya:</strong><br>
+        “Suka banget! Warnanya keluar banget dan gampang banget dipakai. Sekali oles langsung jadi, cocok buat yang suka eksperimen gaya rambut.”</p>
+      <p><strong>⭐ Rani, Jakarta:</strong><br>
+        “Praktis bawa ke mana-mana. Aku pakai buat acara kampus dan banyak yang tanya beli di mana!”</p>
+      <p><strong>⭐ Tia, Bandung:</strong><br>
+        “Akhirnya nemu pewarna rambut instan yang bisa hilang saat keramas. Ga takut rusak rambut!”</p>
+    </div>
+
+    <!-- 7. Timer Promo -->
+    <div class="timer">
+      ⏳ Promo Berakhir Dalam: <span id="countdown">--:--:--</span>
+    </div>
+
+    <!-- 8. Note Pemesanan -->
+    <div class="note">
+      <p>📦 Pengiriman 2 - 4 Hari Setelah Pemesanan<br>
+        📝 Mohon Isi Alamat Dengan Lengkap<br>
+        ✅ 100% Product Original</p>
+    </div>
+
+    <!-- 9. Harga Produk -->
+    <div class="price-box">
+      <h2>PROMO SPESIAL HARI INI</h2>
+      <p>Dapatkan Diskon Spesial Untuk Hari Ini Saja!</p>
+      <p>Harga Promo: <strong>Rp 187.000</strong></p>
+      <p>Harga Normal: <del>Rp 399.000</del></p>
+      <p class="promo">Anda Hemat Rp 212.000!</p>
+    </div>
+
+    <!-- 10. Gambar Promo -->
+    <div class="price-img">
+      <img src="https://down-id.img.susercontent.com/file/sg-11134201-7rccu-m6f46ki9xuhnaf.webp" alt="Promo">
+    </div>
+
+    <!-- 11. Form Pemesanan -->
+    <div class="form-section">
+      <!-- Embed Code -->
+      <!-- OrderOnline Embed Code - v8.0.4 -->
+      <div class="ooef">
+        <form class="orderonline-embed-form" data-username="luna" data-product-slug="portable-hair-dye" data-product-id="687804f139b6af9b1a04c24e" id="oo-embed-form-portable-hair-dye-1045" data-origin="orderonline">
+          <div class="ooef-loader">
+            <style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style>
+            <div aria-live="polite" role="status"><div>Loading...</div></div>
+          </div>
+        </form>
+      </div>
+      <!-- End OrderOnline Embed Code -->
+    </div>
+  </div>
+
+  <!-- Script Timer -->
+  <script>
+    const countdown = document.getElementById("countdown");
+    const now = new Date().getTime();
+    const end = new Date(now + 6 * 60 * 60 * 1000);
+    const x = setInterval(function() {
+      const now = new Date().getTime();
+      const distance = end - now;
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      countdown.innerHTML = hours + ":" + minutes + ":" + seconds;
+      if (distance < 0) {
+        clearInterval(x);
+        countdown.innerHTML = "Promo Berakhir";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
